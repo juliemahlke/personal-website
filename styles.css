@@ -1,7 +1,25 @@
+* {
+  box
+}
+
+:root {
+  --text: #333;
+  --primary-color: #000;
+  --primary-light: #000;
+  --primary-dark: #000;
+  --secondary-color: #000;
+  --secondary-light: #000;
+  --secondary-dark: #000;
+  --bg: ;
+}
+
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
+  display: grid;
+  gap: 20px;
+  color: var(--text);
 }
 
 
@@ -19,9 +37,10 @@ h1 {
   font-weight: 400;
 }
 
-h2 {
+h1 span {
+  display: block;
   margin-top: 0;
-  font-size: 2rem;
+  marg font-size: 2rem;
   font-weight: 200;
 }
 
@@ -37,6 +56,8 @@ h3 {
 section {
   padding: 20px;
 }
+
+.m {}
 
 .btn {
   margin-top: 20px;
@@ -91,4 +112,10 @@ section {
 
 .section__bg {
   background: #e9ecef;
+}
+
+.list li {
+  padding: 10px;
+  list-style-type: none;
+  border-top: 1
 }
