@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "build": "parcel build -d docs --public-url=./ src/index.hbs",
     "start": "parcel -d docs src/index.hbs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
